@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.1.8";"";
+"SUPPLIER";"RS PRO";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"90-11062024-000145";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"5.08mm Low Profile Rising Clamp Term 2W";"";
+"TraceParts.InstanceId";"90-11062024-0001452N3XX9WWY2MK673V115V3T3RA";"";
+"TraceParts.PartTitle";"5.08mm Low Profile Rising Clamp Term 2W";"";
+"url";"https://uk.rs-online.com/web/p/pcb-terminal-blocks/1468345//?cm_mmc=aff-_-uk-_-traceparts-_-1468345";"";
+"REFERENCE";"1468345";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"rs_stock_number";"1468345";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:90-11062024-000145";"";
