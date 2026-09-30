@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP1509_50SG_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP1509-50SG-13" (!) = "", "SOIC127P600X170-8N", "Small Outline Packages", "621-AP1509-50SG-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP1509-50SG-13?qs=EJYhozv%252BYpwbI10CpTvwPw%3D%3D", "AP1509-50SG-13", "https://www.arrow.com/en/products/ap1509-50sg-13/diodes-incorporated.html?utm_currency=USD&region=nac", "DiodesZetex, AP1509-50SG-13 DC-DC Converter 2A 8-Pin, SOP", "https://www.diodes.com//assets/Datasheets/AP1509.pdf", "1.7 mm"
+END_PART
+
+END.

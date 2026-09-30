@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP1509-50SG-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=5.1
+Released=2018-01-02 12:05:05
+Downloaded=2026-09-30 15:47:38
+3D=Y

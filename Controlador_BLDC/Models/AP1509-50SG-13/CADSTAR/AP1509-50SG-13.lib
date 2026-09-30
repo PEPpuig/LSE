@@ -1,0 +1,18 @@
+.AP1509-50SG-13 :1 ;DiodesZetex, AP1509-50SG-13 DC-DC Converter 2A 8-Pin, SOP
+SOIC127P600X170-8N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="OUTPUT" 3="FB" 4="SD" 5="GND_1" 6="GND_2" 7="GND_3" 8="GND_4"
+*MXP 8
+*DFN AP1509-50SG-13
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP1509-50SG-13)
+~!Mouser Part Number (621-AP1509-50SG-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP1509-50SG-13?qs=EJYhozv%252BYpwbI10CpTvwPw%3D%3D)
+~!Arrow Part Number (AP1509-50SG-13)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ap1509-50sg-13/diodes-incorporated.html?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/AP1509.pdf)
+~!Height (1.7mm)
+~!3D_Model (AP1509-50SG-13)
+AP1509-50SG-13
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP1509-50SG-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-06-04:21:15)
+    (mountForm default
+        (footprintRef "SOIC127P600X170-8N")
+        (spec "System")
+    )
+)
