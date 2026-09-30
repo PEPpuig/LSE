@@ -1,0 +1,114 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\josep.puig\Documents\LSE1_BLDC_LTspice\simulacions\02_OL_casos.net
+Start Time: Sat Sep 26 22:59:21 2026
+Options:method=gear
+
+.step run=1
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = Gear
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step run=2
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step run=3
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step run=4
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Starting source stepping with srcstepmethod=1
+Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Starting Gmin stepping level 2
+Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=1, level 2
+Starting source stepping with srcstepmethod=0, level 2
+Source stepping level 2 failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Pseudo Transient succeeded in finding the operating point at 400.012 ms
+Total elapsed time: 369.620 seconds.
+
+Files loaded:
+C:\Users\josep.puig\Documents\LSE1_BLDC_LTspice\simulacions\02_OL_casos.net
+C:\Users\josep.puig\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\josep.puig\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\josep.puig\Documents\LSE1_BLDC_LTspice\simulacions\BEMF.sub
+C:\Users\josep.puig\AppData\Local\LTspice\lib\sub\Control.lib
+C:\Users\josep.puig\AppData\Local\LTspice\lib\sub\LTC4446.sub
+
+
+Measurement: rpm_avg
+  step	AVG(V(rpm) )	FROM	TO
+     1	-1387.61644275	0.06	0.1
+     2	-93.0918930318	0.06	0.1
+     3	-333.340467245	0.06	0.1
+     4	-1111.04332445	0.06	0.1
+
+Measurement: rpm_max
+  step	MAX(V(rpm) )	FROM	TO
+     1	-1262.1517334	0.06	0.1
+     2	436.989868164	0.06	0.1
+     3	-127.725875854	0.06	0.1
+     4	-761.213928223	0.06	0.1
+
+Measurement: rpm_min
+  step	MIN(V(rpm) )	FROM	TO
+     1	-1577.85180664	0.06	0.1
+     2	-459.754638672	0.06	0.1
+     3	-451.415008545	0.06	0.1
+     4	-1333.1439209	0.06	0.1
+
+Measurement: w_avg
+  step	AVG(V(wang) )	FROM	TO
+     1	-145.310854084	0.06	0.1
+     2	-9.7485602432	0.06	0.1
+     3	-34.9073321149	0.06	0.1
+     4	-116.348184877	0.06	0.1
+
+Measurement: tm_avg
+  step	AVG(V(Tmotor) )	FROM	TO
+     1	-0.280213527908	0.06	0.1
+     2	-0.0107021410119	0.06	0.1
+     3	-0.059814143546	0.06	0.1
+     4	-0.223819572539	0.06	0.1
+
+Measurement: tm_max
+  step	MAX(V(Tmotor) )	FROM	TO
+     1	-0.122575283051	0.06	0.1
+     2	0.168673545122	0.06	0.1
+     3	-0.00381598062813	0.06	0.1
+     4	-0.0326547734439	0.06	0.1
+
+Measurement: tm_min
+  step	MIN(V(Tmotor) )	FROM	TO
+     1	-0.35464912653	0.06	0.1
+     2	-0.15819697082	0.06	0.1
+     3	-0.143346786499	0.06	0.1
+     4	-0.388644218445	0.06	0.1
+
+Measurement: ia_rms
+  step	RMS(V(I_A) )	FROM	TO
+     1	9.50590706093	0.06	0.1
+     2	4.65340489909	0.06	0.1
+     3	5.61280822906	0.06	0.1
+     4	16.3472398052	0.06	0.1
+
+Measurement: ia_pk
+  step	MAX(abs(V(I_A)) )	FROM	TO
+     1	14.3491134644	0.06	0.1
+     2	9.49714756012	0.06	0.1
+     3	9.53883075714	0.06	0.1
+     4	27.2378673553	0.06	0.1
