@@ -1,0 +1,33 @@
+* ==================================================================
+* ESC_OLCL : modul de seleccio open-loop / close-loop (LSE-I ESC BLDC)
+*  STEP  : flag (0 = open-loop, 1 = close-loop)
+*  PWM   : senyal PWM (0 / VL)
+*  xx_OL : senyals de les fonts de temps (0/1)   -> timers del uC
+*  CMPx  : sortides dels comparadors BEMF (0/1)  -> GPIO del uC
+*  Sortides HAI..LCI (0 / VL) cap als drivers LTC4446
+*  mode=0 : taula de la practica (commutacio al pas per zero)
+*           AH=A.B'  AL=A'.B  BH=B.C'  BL=B'.C  CH=C.A'  CL=C'.A
+*  mode=1 : variant retardada 60 graus electrics (proves)
+*           AH=A.C'  AL=A'.C  BH=B.A'  BL=B'.A  CH=C.B'  CL=C'.B
+* ==================================================================
+.subckt ESC_OLCL STEP PWM HA_OL LA_OL HB_OL LB_OL HC_OL LC_OL CMPA CMPB CMPC HAI LAI HBI LBI HCI LCI VL=3.3 mode=0
+BA a 0 V=if(V(CMPA)>0.5,1,0)
+BB b 0 V=if(V(CMPB)>0.5,1,0)
+BC c 0 V=if(V(CMPC)>0.5,1,0)
+BP p 0 V=if(V(PWM)>{VL}/2,1,0)
+BS s 0 V=if(V(STEP)>0.5,1,0)
+* funcions logiques close-loop
+B1 ha_cl 0 V=if({mode}<0.5, V(a)*(1-V(b)), V(a)*(1-V(c)))
+B2 la_cl 0 V=if({mode}<0.5, (1-V(a))*V(b), (1-V(a))*V(c))
+B3 hb_cl 0 V=if({mode}<0.5, V(b)*(1-V(c)), V(b)*(1-V(a)))
+B4 lb_cl 0 V=if({mode}<0.5, (1-V(b))*V(c), (1-V(b))*V(a))
+B5 hc_cl 0 V=if({mode}<0.5, V(c)*(1-V(a)), V(c)*(1-V(b)))
+B6 lc_cl 0 V=if({mode}<0.5, (1-V(c))*V(a), (1-V(c))*V(b))
+* multiplexor OL / CL  (PWM nomes a la banda alta)
+B7 HAI 0 V={VL}*V(p)*if(V(s)>0.5, V(ha_cl), if(V(HA_OL)>0.5,1,0))
+B8 LAI 0 V={VL}*if(V(s)>0.5, V(la_cl), if(V(LA_OL)>0.5,1,0))
+B9 HBI 0 V={VL}*V(p)*if(V(s)>0.5, V(hb_cl), if(V(HB_OL)>0.5,1,0))
+B10 LBI 0 V={VL}*if(V(s)>0.5, V(lb_cl), if(V(LB_OL)>0.5,1,0))
+B11 HCI 0 V={VL}*V(p)*if(V(s)>0.5, V(hc_cl), if(V(HC_OL)>0.5,1,0))
+B12 LCI 0 V={VL}*if(V(s)>0.5, V(lc_cl), if(V(LC_OL)>0.5,1,0))
+.ends ESC_OLCL
