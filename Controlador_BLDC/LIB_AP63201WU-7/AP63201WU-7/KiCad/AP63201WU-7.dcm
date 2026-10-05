@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AP63201WU-7
-D  VIN 3.8V to 32V  2A Continuous Output Current  0.8V +/- 1% Reference Voltage  22A Ultralow Quiescent Current  Switching Frequency o 500kHz: AP63200 and AP63201 o 1.1MHz: AP63203 and AP63205  Pulse Width Modulation (PWM) Regardless of Output Load o AP63201  Supports Pulse Frequency Modulation (PFM) o AP63200, AP63203, and AP63205 o Up to 80% Efficiency at 1mA Light Load o Up to 88% Efficiency at 5mA Light Load  Fixed Output Voltage o 3.3V: AP63203 o 5.0V: AP63205  Proprietary Gate Dr
-K
-F https://www.diodes.com//assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
-$ENDCMP
-#
-#End Doc Library
