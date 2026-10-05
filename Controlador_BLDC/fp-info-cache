@@ -1,4 +1,18 @@
-24755297618917439
+24767835648885282
+AP1509-50SG-13
+SOIC127P600X170-8N
+SO-8-2024
+Integrated Circuit
+0
+8
+8
+AP63201WU-7
+SOT95P280X100-6N
+TSOT26 (Standard)_2024
+Integrated Circuit
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +27,13 @@ audio belton reverb
 0
 7
 7
+B240A-13-F
+DIOM5226X230N
+DiodesIncSMA
+Diode
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2565,6 +2586,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CDRH127-LDNP-470MC
+INDPM120120X800N
+CDRH127/LDNP-470MC_a
+Inductor
 0
 2
 2
@@ -65890,6 +65918,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LIB_LTL-4221N
+LTL4221N
+LTL-4221N-2
+LED
+0
+2
+2
 LM339DR
 D14
 
@@ -65912,9 +65947,16 @@ LM339DR
 14
 14
 LMS8117AMP-3.3/NOPB
-MP04A
-
-LMS8117AMP-3.3/NOPB 
+SOT230P700X180-4N
+DCY (R-PDSO-G4)
+Integrated Circuit
+0
+4
+4
+Library
+Potentiometer_Alps_RK163_Single_Horizontal
+1110U1Q 1110TNP 1110U2A 1110U0Q Potentiometer, horizontal, Alps RK163 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf
+Potentiometer horizontal Alps RK163 Single
 0
 3
 3
@@ -86750,6 +86792,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Potentiometer_Alps_RK163
+Potentiometer_Alps_RK163_Single_Horizontal
+1110U1Q 1110TNP 1110U2A 1110U0Q Potentiometer, horizontal, Alps RK163 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf
+Potentiometer horizontal Alps RK163 Single
+0
+3
+3
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
