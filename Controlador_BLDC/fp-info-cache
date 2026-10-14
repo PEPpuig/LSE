@@ -1,4 +1,4 @@
-24767835648885282
+24773211896464243
 AP1509-50SG-13
 SOIC127P600X170-8N
 SO-8-2024
@@ -92987,6 +92987,20 @@ Logo WEEE
 0
 0
 0
+TIVA-Modfied
+MODULE_EK-TM4C123GXL
+
+
+0
+40
+40
+TIVA-Modfied
+MODULE_EK-TM4C123GXL_mofied
+
+
+0
+40
+40
 TM4C123GXL
 MODULE_EK-TM4C123GXL
 
@@ -92994,6 +93008,13 @@ MODULE_EK-TM4C123GXL
 0
 40
 40
+TM4C123GXL
+Untitled
+
+
+0
+0
+0
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
