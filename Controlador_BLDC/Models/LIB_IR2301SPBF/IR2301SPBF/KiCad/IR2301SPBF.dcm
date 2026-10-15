@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IR2301SPBF
+D High/Low side Driver 600V 0.35A SOIC8 Infineon IR2301SPBF DC Motor Driver IC, 600 V 0.35A, 8-Pin SOIC
+K
+F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
+$ENDCMP
+#
+#End Doc Library

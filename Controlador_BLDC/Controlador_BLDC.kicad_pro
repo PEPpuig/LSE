@@ -224,7 +224,7 @@
           "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -242,7 +242,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1333500|736600|3ad23b6f-30b1-4f29-9c33-3c28a2dbb6b0|00000000-0000-0000-0000-000000000000|||",
+        "modificat perque capiga a la pcb"
+      ],
+      [
+        "footprint_link_issues|1828800|749300|17a5a457-4165-4e1c-9a5d-92fe189b7cd7|00000000-0000-0000-0000-000000000000|||",
+        "Conexio del motor es diferent"
+      ],
+      [
+        "lib_symbol_mismatch|304800|901700|c0824a42-2244-43f1-9ad6-cbe706b7cc6c|00000000-0000-0000-0000-000000000000|||",
+        "reduit per l'esquematic"
+      ],
+      [
+        "lib_symbol_mismatch|444500|381000|0e7647b6-d80a-4fe9-9593-95e10f4860a8|00000000-0000-0000-0000-000000000000|||",
+        "reduit per l'esquematic"
+      ],
+      [
+        "lib_symbol_mismatch|635000|406400|1e9279c2-eba4-40de-a2f8-ce63755fa69a|00000000-0000-0000-0000-000000000000|||",
+        "Reduit per l'esquematic"
+      ],
+      [
+        "power_pin_not_driven|1866900|2324100|63cba952-457d-419d-a781-b16ed30b8731|00000000-0000-0000-0000-000000000000|/1706df49-23e6-4c95-a82c-06a5c506808f|/1706df49-23e6-4c95-a82c-06a5c506808f|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -675,7 +700,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

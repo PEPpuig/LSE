@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 744770147
+D WE-PD SMT Shielded Power Inductor Size 1280; L = 47 H +/-20%; IR = 3 A; Isat = 3,3 A; RDC = 64 m
+K
+F https://www.we-online.com/catalog/datasheet/744770147.pdf
+$ENDCMP
+#
+#End Doc Library

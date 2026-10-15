@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM339D
+D LM339DG4, Quad Comparator Open Collector 1.3s 4-kanalers 3, 5, 9, 12, 15, 18, 24, 28V 14-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/lm339.pdf
+$ENDCMP
+#
+#End Doc Library
